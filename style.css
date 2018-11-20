@@ -1,0 +1,114 @@
+h1
+			{
+				text-align: center;
+				color: #cce6ff;
+				font-size: 400%;
+				margin-bottom: 10px;
+				transition: font-size 1s;
+				text-decoration: underline;
+				text-decoration-color: #4da6ff;
+			}
+h1:hover
+			{
+				font-size: 500%;
+			}
+
+#headshot 
+			{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: 10px;
+				border-radius: 50%;
+				border-style: outset;
+				border-color: #4da6ff;
+				border-width: 5px;
+				transition: transform 1.5s;
+			}
+#headshot:hover
+			{
+				transform: rotateY(540deg);
+			}
+			
+body
+			{
+				background-image: url(fall-leaf-border-wallpaper-2.jpg);
+				background-size: auto;
+			}
+#navigation-bar
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #4da6ff;
+				width: 100%;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+			}
+
+#navigation-bar a
+			{
+				float: left;
+				display: block;
+				color: black;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				border-right: 3px solid #0059b3;
+				
+			}
+
+#navigation-bar a:hover:not(.active)
+			{
+				background-color: #cce6ff;
+			}
+
+.active
+			{
+				background-color: #cce6ff;
+			}
+
+#contact
+			{	
+				border-radius: 10px;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #4da6ff;
+				border: 5px solid #0059b3;
+				position: fixed;
+				bottom: 0;
+				right:0;
+				width: 300;
+				z-index: 1;
+			}
+
+#contact a
+			{
+				float: left;
+				display: block;
+				color: black;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				border-right: 3px solid #0059b3;
+			}
+
+#contact a:hover
+			{
+				background-color: #cce6ff;
+			}			
+#paragraph
+			{
+				background-color: #cce6ff;
+				opacity: 0.7;
+				padding-bottom: 500px;
+				padding-left: 30px;
+				padding-top: 10px;
+
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+			}
